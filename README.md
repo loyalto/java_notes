@@ -10,7 +10,7 @@
 - [synchronized 关键字底层是如何实现的？它与 Lock 相比优缺点分别是什么？](Concurrent/synchronized.md)
 - [ThreadLocal 实现原理是什么？](Concurrent/ThreadLocal.md)
 - [Java 线程和操作系统的线程是怎么对应的？Java线程是怎样进行调度的？](Concurrent/Thread.md)
-- [简述 Java 的 happen before 原则](Concurrent/happen before.md)
+- [简述 Java 的 happen before 原则](Concurrent/happenbefore.md)
 - [Java 多线程有几种实现方式](Concurrent/ThreadImpl.md)
 - [Java 常见锁有哪些？ReetrantLock 是怎么实现的？](Concurrent/ReetrantLock.md)
 
