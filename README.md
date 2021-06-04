@@ -46,3 +46,8 @@
 ## 常用框架
 ## 数据结构
 
+## 系统设计
+- [设计一个阻塞队列](systemDesign/设计一个阻塞队列.md)
+- [如何设计一个线程池](systemDesign/如何设计一个线程池.md)
+- [设计 Tiny URL 系统](systemDesign/设计 Tiny URL 系统.md)
+- [如何实现秒杀功能](systemDesign/如何实现秒杀功能.md)
