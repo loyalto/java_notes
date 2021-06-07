@@ -1,0 +1,3 @@
+与Spring相结合，通过ImportSelector与ImportBeanDefinitionRegistrar向IOC容器中根据条件注入Bean。
+![enableAutoConfiguration](enableAutoConfiguration.png)
+
