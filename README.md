@@ -47,6 +47,8 @@
 - [236. 二叉树的最近公共祖先](algorithm/tree/236.%20二叉树的最近公共祖先.md)
 - [AVL 树和红黑树有什么区别？](algorithm/tree/AVL 树和红黑树有什么区别？.md)
 - [面试题 04.04. 检查平衡性](algorithm/tree/面试题%2004.04.%20检查平衡性.md)
+- [红黑树最多三次旋转达到平衡](algorithm/tree/redBlackTree/红黑树最多三次旋转达到平衡.md)
+- [B树与B+树](algorithm/tree/bTree/B树与B+树.md)
 ### 链表
 - [141. 环形链表](algorithm/linked/141. 环形链表.md)
 - [142. 环形链表 II](algorithm/linked/142. 环形链表 II.md)
@@ -98,6 +100,11 @@
 - [快速排序非递归实现](algorithm/other/快速排序非递归实现.md)
 - [常用的限流算法有哪些？简述令牌桶算法原理](algorithm/other/常用的限流算法有哪些？简述令牌桶算法原理.md)
 ## 设计模式
+- [单例模式](designPatterns/单例模式详解.md)
+- [工厂模式](designPatterns/工程模式详解.md)
+- [代理模式](designPatterns/代理模式.md)
+- [模板方法模式](designPatterns/模板方法模式.md)
+- [策略模式](designPatterns/策略模式.md)
 ## 常用框架
 1. Spring
 - [IOC](framework/spring/Spring-IOC.md)
