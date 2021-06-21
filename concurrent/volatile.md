@@ -50,4 +50,4 @@ volatile读：变量后插入LoadLoad与LoadStore
 
 不同的cpu与操作系统有不同的内存屏障命令，而java是支持多平台的，JVM会根据不同平台选择不同的内存屏障指令，JMM提供可见性、有序性的解决方案，即我们常使用volatile、final。
 
-volatile加内存屏障的链路为：volatile->class(添加volatile的flag)->jvm(根据flag与所在平台，选择具体内存屏障指令)
+volatile加内存屏障的链路为：volatile->class(filed上有volatile的flag_access_flags)->jvm(看到有access_flags，根据flag与所在平台，选择具体内存屏障指令加上去)

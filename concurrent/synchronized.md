@@ -10,7 +10,7 @@
 
 ### 实现
 
-[sync核心组件](sync核心组件.png)
+![sync核心组件](sync核心组件.png)
 1.JVM每次从队列尾部取一个用于OnDeck，但并发情况下Contention List会被大量CAS访问，为了降低对尾部元素竞争，JVM会将一部分线程移到Entry List作为候选竞争线程
 2.在Owner unlock时，发现Entry List没有线程，会将Contention List部分线程移到Entry List,并制定Entry List中某个线程为OnDeck
 3.处于 ContentionList、EntryList、WaitSet 中的线程都处于阻塞状态
