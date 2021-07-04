@@ -51,7 +51,7 @@
 - [B树与B+树](algorithm/tree/bTree/B树与B+树.md)
 ### 链表
 - [141. 环形链表](algorithm/linked/141.%20环形链表.md)
-- [142. 环形链表 II](algorithm/linked/142.%20环形链表 II.md)
+- [142. 环形链表 II](algorithm/linked/142.%20环形链表%20II.md)
 - [143. 重排链表](algorithm/linked/143.%20重排链表.md)
 - [21合并两个有序链表](algorithm/linked/21合并两个有序链表.md)
 - [23. 合并K个升序链表](algorithm/linked/23.%20合并K个升序链表.md)
