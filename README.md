@@ -110,7 +110,6 @@
 - [IOC](framework/spring/Spring-IOC.md)
 - [简述 Spring AOP 的原理](framework/spring/简述%20Spring%20AOP%20的原理.md)
 2. SpringBoot
-- [SpringBoot 是如何进行自动配置的？](framework/springBoot/SpringBoot%20是如何进行自动配置的？.md)
 - [Spring Boot 自动装配笔记](framework/springBoot/Spring%20Boot%20自动装配笔记.md)
 3. SpringCloud
 - [Ribbon使用与原理](framework/springCloud/SpringCloud笔记2-Ribbon使用与原理.md)
