@@ -39,6 +39,7 @@
 	}
 ```
 `EurekaAutoServiceRegistration`与`EurekaServiceRegistry`是通过`EurekaClientAutoConfiguration`、`EurekaClientConfiguration`注入的，而在注入`CloudEurekaClient`时，会通过构造函数，最终调用到`DiscoveryClient`的构造函数里，在这个方法里，初始了很多定时任务。
+
 ```java
 DiscoveryClient(ApplicationInfoManager applicationInfoManager, EurekaClientConfig config, AbstractDiscoveryClientOptionalArgs args,
                     Provider<BackupRegistry> backupRegistryProvider, EndpointRandomizer endpointRandomizer) {

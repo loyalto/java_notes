@@ -4,8 +4,8 @@
 `OpenFeign`是一种声明式服务调用。声明式调用是指，就像调用本地方法一样调用远程方法，无需感知操作远程`http`请求。
 ## 功能分析
 要达到声明式服务调用的效果，`OpenFeign`需要做到给每一个`@FeignClient`注解的接口生成代理，注入到容器中，并且代理能根据接口方法信息完成调用远程方法。根据这两个功能可以把`OpenFeign`生效过程拆分成三部分
-- 注入接口类型代理
-- 解析接口方法
+- 配置Client 
+- 注入Client代理对象
 - 远程调用
 ## @EnableFeignClients详解
 ![factorybean](笔记3-factorybean.png)
