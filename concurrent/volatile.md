@@ -7,7 +7,9 @@ volatile解决了可见性与有序性问题。
 有序性是多线程下，代码执行顺序和编写的不一样，称为指令重排。指令重排有两种
 
 - 编译器重排：编译器为了提升执行效率，会在不影响单线程执行结果的情况下对指令重排以让在真实运行时更快。
-- CPU重排：CPU重排是因为引入了store buffers导致的，引入store buffers是为了解决MESI（M：modify修改，E：exclusive独占，S：shared共享，I：invalid失效）缓存一致性协议同步缓存时CPU等待问题
+- CPU重排：
+  - 并行执行重排：提升CPU执行效率，不影响单线程效果下，指令重排
+  - CPU缓存重排：引入了store buffers与invalid queue导致的，引入store buffers是为了解决MESI（M：modify修改，E：exclusive独占，S：shared共享，I：invalid失效）缓存一致性协议同步缓存时CPU ACK等待问题，invalid queue是为了延迟处理失效缓存
 
 ### CPU重排示例
 
